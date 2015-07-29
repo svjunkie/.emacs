@@ -6,6 +6,7 @@
     '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 
-# new keybindings for OSX-style delete
+;;;; keybinding changes and miscellany
+; new keybindings for OSX-style delete
 (global-set-key "\?" 'help-command)
 (global-set-key "\C-h" 'delete-backward-char)
